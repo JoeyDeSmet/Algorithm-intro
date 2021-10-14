@@ -1,11 +1,11 @@
 current = 1
 previous = 2
-sum = 1
+sum = 2
 
 while current < 4000000:
     nextNumber = previous + current
 
-    if nextNumber % 2 != 0:
+    if nextNumber % 2 == 0:
         sum += nextNumber
 
     previous = current
